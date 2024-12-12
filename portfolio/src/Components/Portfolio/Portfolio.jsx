@@ -5,6 +5,7 @@ import Currency from "../../img/currency.png";
 import TODO from "../../img/todo.png";
 import Realty from "../../img/realty.png";
 import Grocery from "../../img/grocery.png";
+import Aimockup from "../../img/aimockup.png";
 import {Swiper,SwiperSlide} from 'swiper/react'
 import { useContext } from 'react'
 import { Themecontext } from '../../App'
@@ -22,7 +23,10 @@ const Portfolio = () => {
         slidesPerView={3}
         className='portfolio-slider'>
             <SwiperSlide>
-                <img src={Realty} alt="" />
+               <a href='https://aimockinterview-omega.vercel.app/' target='_blank'> <img src={Aimockup} alt="" /></a>
+            </SwiperSlide>
+            <SwiperSlide>
+               <a href='https://grigo-housing.vercel.app/' target='_blank'> <img src={Realty} alt="" /></a>
             </SwiperSlide>
             <SwiperSlide>
                 <img src={Blog} alt="" />

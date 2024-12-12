@@ -18,7 +18,7 @@ const Footer = () => {
             <span onClick={handleClick}>akashbalaji594@gmail.com</span>
             <div className="f-icons">
             <a href='https://github.com/AkashB45' target='_blank'><Github color="black" size="3rem" /></a>
-            <a href='https://www.linkedin.com/in/akash-b-a92b30230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='_blank'> <Linkedin color="navy" size="3rem" /></a>
+            <a href='https://www.linkedin.com/in/akash-b-a92b30230/' target='_blank'> <Linkedin color="navy" size="3rem" /></a>
             <a href='https://www.instagram.com/akashak_45?igsh=dHQ4ZGF3MXU2OHZ0' target='_blank'>    <Insta color="purple" size="3rem" /></a>
             </div>
         </div>
